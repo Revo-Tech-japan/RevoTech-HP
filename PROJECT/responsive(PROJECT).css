@@ -1,0 +1,130 @@
+@media screen and (max-width:960px) {
+
+    /*top and header (共通部分)*/
+    .top {
+        height: 800px;
+    }
+
+    .header {
+        width: 85%;
+        margin: 0 auto 0 45px;
+        padding-top: 60px;
+        padding-left: 0;   
+    }
+
+    .header-icon {
+        display: block;
+    }
+
+    .material-icons {
+        color: white;
+        margin-top: 10px;
+    }
+
+    .header-menu {
+        display: none;
+    }
+
+    .top-main {
+        width: 70%;
+        text-align: center;
+    }
+
+
+    /*contents*/
+    .projects-container,
+    .footer-top {
+        width: 100%;
+    }
+    .projects-title {
+        padding-left: 50px;
+    }
+
+    .projects {
+        flex-direction: column;
+        margin-top: 0;
+    }
+
+    .project {
+        width: 100%;
+        justify-content: center;
+        margin-top: 50px;
+    }
+
+    .project span {
+        text-align: right;
+        padding-right: 10px;
+    }
+
+    .contact {
+        display: flex;
+        flex-direction: column; 
+    }
+
+
+    /*footer(共通部分)*/
+    .footer-top {
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    .footer-bottom {
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    .footer-bottom-right span {
+        color: #22eaaa;
+    }
+}
+
+@media screen and (max-width:480px) {
+
+    .header {
+        padding-top: 40px;
+        margin: 0 auto ;
+        width: 90%;
+    }
+
+    .header-title img {
+        width: 180px;
+    }
+
+    .sp-nav {
+        width: 90%;
+    }
+    
+    .projects-title {
+        padding-left: 20px;
+    }
+
+
+    /*footer(共通部分)*/
+    .footer-top {
+        flex-direction: column;
+        justify-content: flex-start; 
+    }
+
+    .overview {
+        width: 100%;
+    }
+
+    .footer-menu {
+        flex-direction: column;
+        justify-content: flex-start; 
+    }
+
+    .footer-menu div {
+        margin-top: 20px;
+    }
+
+    .footer-menu div ul {
+        margin-top: 30px;
+    }
+
+    .footer-bottom {
+        width: 90%;
+        align-items: center;
+        padding-bottom: 80px;
+    }
+}
